@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: rgb(103, 126, 155);
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+}
+.todoBox {
+  display: flex;
+  justify-content: center;
+}
+#newTask {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+#addTodo {
+  color: white;
+  font-weight: bold;
+  border: none;
+  width: 3rem;
+  border-radius: 10%;
+  background-color: rgb(86, 87, 114);
+  transition: width 0.5s;
+}
+#addTodo:hover {
+  opacity: 0.6;
+  width: 5rem;
+  cursor: pointer;
+}
